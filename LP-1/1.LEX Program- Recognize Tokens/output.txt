@@ -1,8 +1,0 @@
-softwareengineering@softwareengineering-System-Product-Name:-/Downloads$ lex calc.l
-softwareengineering@softwareengineering-System-Product-Name:-/Downloads$ yaccd calc.y softwareengineering@softwareengineering-System-Product-Name:-/Downloads$ gcc lex.yy.c y.tab.c-o calc
-softwareengineering@softwareengineering-System-Product-Name:-/Downloads$ ./calc
-Enter arithmetic expressions :
-5*2/5
-Result = 2
-10/2*5
-Result = 25
