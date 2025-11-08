@@ -1,0 +1,28 @@
+=== Reader–Writer Problem using Mutex (Auto Stop Version) ===
+
+Reader 2 is reading data = 0
+Reader 1 is reading data = 0
+Reader 0 is reading data = 0
+Writer 0 wrote data = 1
+Reader 1 is reading data = 1
+Reader 2 is reading data = 1
+Reader 0 is reading data = 1
+Writer 0 wrote data = 2
+Reader 1 is reading data = 2
+Reader 2 is reading data = 2
+Reader 0 is reading data = 2
+Reader 1 is reading data = 2
+Writer 0 wrote data = 3
+Reader 0 is reading data = 3
+Reader 2 is reading data = 3
+Reader 1 is reading data = 3
+Writer 0 wrote data = 4
+Reader 0 is reading data = 4
+Reader 2 is reading data = 4
+Reader 1 is reading data = 4
+Writer 0 wrote data = 5
+Reader 0 is reading data = 5
+Reader 2 is reading data = 5
+Reader 1 is reading data = 5
+
+✅ Program completed successfully.
