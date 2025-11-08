@@ -1,0 +1,8 @@
+
+=== Memory Allocation using Best Fit ===
+
+Process No.     Process Size    Block No.
+P1              212             4
+P2              417             2
+P3              112             3
+P4              426             5

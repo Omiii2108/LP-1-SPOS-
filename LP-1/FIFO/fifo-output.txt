@@ -1,0 +1,13 @@
+PS C:\Users\omkar dalvi> & "C:/Users/omkar dalvi/AppData/Local/Programs/Python/Python312/python.exe" "c:/Users/omkar dalvi/Desktop/LP-1/fifo.py"
+Page references: [7, 0, 1, 2, 0, 3]
+Frame capacity: 2
+Total page faults: 6
+
+Memory states after each page reference:
+  Reference 1 (7): [7]
+  Reference 2 (0): [7, 0]
+  Reference 3 (1): [0, 1]
+  Reference 4 (2): [1, 2]
+  Reference 5 (0): [2, 0]
+  Reference 6 (3): [0, 3]
+PS C:\Users\omkar dalvi> 

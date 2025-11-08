@@ -1,0 +1,21 @@
+
+=== LRU Page Replacement Algorithm ===
+
+Pages: [2, 3, 2, 1, 5, 2, 4, 5, 3, 2, 5, 2]
+Number of Frames: 3
+
+Page    Frames          Page Fault
+2       [2]             Yes
+3       [2, 3]          Yes
+2       [2, 3]          No
+1       [2, 3, 1]               Yes
+5       [2, 5, 1]               Yes
+2       [2, 5, 1]               No
+4       [2, 5, 4]               Yes
+5       [2, 5, 4]               No
+3       [3, 5, 4]               Yes
+2       [3, 5, 2]               Yes
+5       [3, 5, 2]               No
+2       [3, 5, 2]               No
+
+Total Page Faults: 7

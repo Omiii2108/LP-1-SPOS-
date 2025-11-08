@@ -1,0 +1,8 @@
+
+=== Memory Allocation using Worst Fit ===
+
+Process No.     Process Size    Block No.
+P1              212             5
+P2              417             2
+P3              112             5
+P4              426             Not Allocated

@@ -1,0 +1,8 @@
+
+=== Memory Allocation using First Fit ===
+
+Process No.     Process Size    Block No.
+P1              212             2
+P2              417             5
+P3              112             2
+P4              426             Not Allocated
